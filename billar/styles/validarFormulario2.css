@@ -1,0 +1,18 @@
+.invalid-feedback{
+    position: absolute;
+}
+
+.was-validated .form-control:valid:focus, .was-validated .datatable-input:valid:focus, .form-control.is-valid:focus, .is-valid.datatable-input:focus {
+    border-color: #ced4da; 
+    box-shadow: none; 
+}
+
+.was-validated .form-control:valid, .was-validated .datatable-input:valid, .form-control.is-valid, .is-valid.datatable-input {
+    border-color:#ced4da;
+    background-image:none;
+    
+}
+.was-validated .form-control:invalid, .was-validated .datatable-input:invalid, .form-control.is-invalid, .is-invalid.datatable-input{
+    border-color: #ced4da; 
+    background-image:none;
+}

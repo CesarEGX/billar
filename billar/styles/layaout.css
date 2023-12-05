@@ -1,0 +1,46 @@
+.sesionUsuario{
+    color:#fff;
+}
+.tblTop{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+.buscar{
+    padding-left: 5px;
+}
+
+/*pagina para añadir y editar usuarios*/
+.formularioAdd{
+    /**background-color: red;**/
+    width: 100%;
+    justify-content: space-between;
+}
+.inputUser{
+    width: 30rem;
+}
+.invalid-feedback{
+    width: 30rem;
+}
+.form-row{
+    /**background-color: aqua;**/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1.7rem;
+    
+}
+/*Scroll para las tablas*/
+
+.table thead th {
+    position: sticky;
+    top: 0;
+    background-color: #212529;
+    color:#fff;
+    z-index: 10;
+}
+
+
+

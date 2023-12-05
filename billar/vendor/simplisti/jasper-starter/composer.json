@@ -1,0 +1,23 @@
+{
+	"type": "library",
+	"license": "MIT",
+	"name": "simplisti/jasper-starter",
+	"description": "Object interface for working with JasperStarter",
+	"keywords": ["PDF", "Reporting", "Printing"],
+	"homepage": "https://github.com/simplisti/jasper-starter",	
+	"authors": [
+		{
+			"name": "Alex Barylski",
+			"email": "alex.barylski@gmail.com"
+		}
+	],
+	"require": {
+		"php": "^7.1.3",	
+		"symfony/process": "^5.2"
+	},	
+	"autoload": {
+		"psr-4": {
+			"Simplisti\\Lib\\JasperStarter\\": "src/"
+		}
+	}
+}
