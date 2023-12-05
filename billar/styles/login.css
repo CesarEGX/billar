@@ -1,0 +1,28 @@
+body{
+    background-color:#270101 ;
+    height: 100%;
+}
+.portadaImg{
+    width: 450px;
+}
+.logoBillar{
+    position: relative;
+    bottom:30px;
+}
+.btn-user{
+    background-color:#008f37;
+    color:#fff;
+    position:relative;
+    top:20px;
+}
+.btn-user:hover{
+    background-color: #01782F;
+    color:white;
+}
+.form-label{
+    font-size:15px; 
+    margin-left:10px;
+}
+.start{
+    font-size:13.5px
+}

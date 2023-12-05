@@ -1,0 +1,37 @@
+
+.needs-validation .form-control.is-valid,
+.needs-validation .was-validated .form-control:valid {
+  border-color: #ced4da;
+  padding-right: calc(1.5em + .75rem);
+  background-image: none;
+}
+
+.needs-validation .form-control.is-valid:focus,
+.needs-validation .was-validated .form-control:valid:focus {
+  border-color: #ced4da;
+  box-shadow: none;
+}
+
+.needs-validation .invalid-feedback {
+  display: block;
+  }
+
+.needs-validation .form-control.is-invalid,
+.needs-validation .was-validated .form-control:invalid {
+  border-color: red;
+  padding-right: calc(1.5em + .75rem);
+  background-image: none;
+}
+
+.needs-validation .form-control.is-invalid:focus,
+.needs-validation .was-validated .form-control:invalid:focus {
+  border-color: red;
+  box-shadow: none;
+}
+.d-none {
+    display: none;
+}
+
+
+
+   
